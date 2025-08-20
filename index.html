@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Website</title>
+  <meta charset="UTF-8">
+  <title>Erin Ralph</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 40px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 18px;
+      text-decoration: none;
+      color: white;
+      background-color: #333;
+      border-radius: 8px;
+      width: 200px;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>This is my first site.</p>
+
+  <h1>Erin Ralph</h1>
+
+  <div class="button-container">
+    <a class="button" href="resume.html">Resume</a>
+    <a class="button" href="certifications.html">Certifications</a>
+    <a class="button" href="exhibits.html">Exhibits</a>
+    <a class="button" href="projects.html">Projects</a>
+    <a class="button" href="programming.html">Programming</a>
+  </div>
+
 </body>
 </html>
+
